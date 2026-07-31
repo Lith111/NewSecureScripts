@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply bg-gradient-to-br from-slate-50 to-gray-100 text-slate-800 antialiased;
+    font-family: 'Inter', sans-serif;
+  }
+}
+
+@layer components {
+  /* بطاقات زجاجية */
+  .glass-card {
+    @apply bg-white/70 backdrop-blur-xl border border-white/20 shadow-xl;
+  }
+  
+  /* تأثيرات تحويم */
+  .hover-lift {
+    @apply transition-all duration-300 hover:-translate-y-1 hover:shadow-lg;
+  }
+}

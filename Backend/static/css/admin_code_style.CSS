@@ -1,0 +1,7 @@
+.field-vulnerable_code textarea, .field-secure_code textarea {
+    font-family: 'Courier New', monospace;
+    background-color: #1e1e1e;
+    color: #d4d4d4;
+    direction: ltr;
+    unicode-bidi: embed;
+}
